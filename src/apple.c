@@ -7,7 +7,7 @@ int A[100000];
 int p(int m){
   long long int t=0;
   int i;
-  for(i=0;i<n;i++) t+=(long long int)(A[i]+m-1)/m;
+  for(i=0;i<n;i++) t+=(A[i]+m-1)/m;
   return t<=k;
 }
 
